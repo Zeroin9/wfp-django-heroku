@@ -130,9 +130,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = '/home/ishchi/waitforparcel/media'
+MEDIA_ROOT = '../waitforparcel/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = '/home/ishchi/waitforparcel/static'
+STATIC_ROOT = '../static'
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_ALLOW_ALL = True
