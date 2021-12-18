@@ -1,1 +1,1 @@
-web: python3 manage.py runserver myproject.wsgi
+web: python3 manage.py runserver
